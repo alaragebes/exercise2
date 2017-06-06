@@ -1,11 +1,11 @@
 def linear_search (myItem, myList):
     found = False
     position = 0
-    while position < len(myList) and not found :ß
+    while position < len(myList) and not found :
         if myList[position] == myItem :
             found = True
         position = position + 1
-        return found
+    return found
 
 if __name__ == "__main__":
     shopping = ["apples", "kiwi", "maple", "coconut"]
@@ -17,4 +17,4 @@ if __name__ == "__main__":
     else :
         print ("Nope, not here.")
 
-## couldn't find ERROR 
+## couldn't find ERROR
