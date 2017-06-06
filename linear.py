@@ -1,7 +1,7 @@
 def linear_search (myItem, myList):
     found = False
     position = 0
-    while position < len(myList) and not found :ß
+    while position < len(myList) and not found :
         if myList[position] == myItem :
             found = True
         position = position + 1
